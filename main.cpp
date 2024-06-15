@@ -10,7 +10,7 @@ int main(){
   for (int i = 0; i<size; i++){
     double num;
     std::cout<<"Enter grade "<<i+1<<": ";
-    std::cin>>num;
+    std::cin>>num ;
     sum += num;
   }
   double gpa = ((double)sum)/((double)size);
